@@ -1,4 +1,5 @@
 import 'package:dartz/dartz.dart';
+import 'package:interview_demo/features/teacher_list/domain/entities/curriculum/curriculum_entity.dart';
 import 'package:interview_demo/features/teacher_list/domain/repositories/i_teacher_list_repository.dart';
 
 class DeleteCurriculum {
@@ -8,7 +9,7 @@ class DeleteCurriculum {
 
   final ITeacheryListRepository iTeacheryListRepository;
 
-  Future<Either<String, void>> call(String teacherId) {
+  Future<Either<String, List<CurriculumEntity>>> call(String teacherId) {
     return iTeacheryListRepository.deleteCurriculum(teacherId);
   }
 }

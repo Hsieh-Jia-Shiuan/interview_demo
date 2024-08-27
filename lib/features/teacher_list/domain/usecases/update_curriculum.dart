@@ -9,7 +9,7 @@ class UpdateCurriculum {
 
   final ITeacheryListRepository iTeacheryListRepository;
 
-  Future<Either<String, void>> call(CurriculumEntity newDatas) {
+  Future<Either<String, List<CurriculumEntity>>> call(CurriculumEntity newDatas) {
     return iTeacheryListRepository.updateCurriculum(newDatas);
   }
 }
