@@ -1,0 +1,280 @@
+[
+    {
+        "id": "a1b2c3d4",
+        "name": "Albert Flores",
+        "title": "Demonstrator",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+        "curriculums": [
+            {
+                "id": "c1d2e3f4",
+                "name": "基礎程式設計",
+                "schedule": "星期三, 09:00~11:00",
+                "content": "Introduction to programming concepts and problem-solving techniques."
+            },
+            {
+                "id": "d2e3f4g5",
+                "name": "訊號與系統",
+                "schedule": "星期五, 13:00~15:00",
+                "content": "Fundamentals of signals and systems, including transformations and filtering."
+            }
+        ]
+    },
+    {
+        "id": "b2c3d4e5",
+        "name": "Floyd Miles",
+        "title": "Lecturer",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+        "curriculums": [
+            {
+                "id": "e3f4g5h6",
+                "name": "人工智慧總整與實作",
+                "schedule": "星期四, 10:00~12:00",
+                "content": "Overview of AI technologies and practical implementation."
+            }
+        ]
+    },
+    {
+        "id": "c3d4e5f6",
+        "name": "Savannah Nguyen",
+        "title": "Senior Lecturer",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+        "curriculums": [
+            {
+                "id": "f4g5h6i7",
+                "name": "訊號與系統",
+                "schedule": "星期一, 14:00~16:00",
+                "content": "Detailed study of signals and systems, including advanced applications."
+            }
+        ]
+    },
+    {
+        "id": "d4e5f6g7",
+        "name": "Jenny Wilson",
+        "title": "Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+        "curriculums": [
+            {
+                "id": "g5h6i7j8",
+                "name": "人工智慧總整與實作",
+                "schedule": "星期三, 11:00~13:00",
+                "content": "Comprehensive AI overview with practical applications and case studies."
+            }
+        ]
+    },
+    {
+        "id": "e5f6g7h8",
+        "name": "Floyd Miles",
+        "title": "Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+        "curriculums": [
+            {
+                "id": "h6i7j8k9",
+                "name": "基礎程式設計",
+                "schedule": "星期五, 08:00~10:00",
+                "content": "Introduction to programming languages and basic problem-solving techniques."
+            }
+        ]
+    },
+    {
+        "id": "f6g7h8i9",
+        "name": "Ava Moore",
+        "title": "Assistant Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+        "curriculums": [
+            {
+                "id": "i7j8k9l0",
+                "name": "訊號與系統",
+                "schedule": "星期二, 12:00~14:00",
+                "content": "Fundamentals of signal processing and system analysis."
+            },
+            {
+                "id": "j8k9l0m1",
+                "name": "人工智慧總整與實作",
+                "schedule": "星期五, 15:00~17:00",
+                "content": "AI technologies and their practical implementations."
+            }
+        ]
+    },
+    {
+        "id": "g7h8i9j0",
+        "name": "John Doe",
+        "title": "Lecturer",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+        "curriculums": [
+            {
+                "id": "k9l0m1n2",
+                "name": "基礎程式設計",
+                "schedule": "星期四, 08:00~10:00",
+                "content": "Basic programming concepts with hands-on practice."
+            }
+        ]
+    },
+    {
+        "id": "h8i9j0k1",
+        "name": "Mia Wong",
+        "title": "Senior Lecturer",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+        "curriculums": [
+            {
+                "id": "l0m1n2o3",
+                "name": "人工智慧總整與實作",
+                "schedule": "星期一, 10:00~12:00",
+                "content": "In-depth look at AI theories and practical exercises."
+            }
+        ]
+    },
+    {
+        "id": "i9j0k1l2",
+        "name": "Liam Johnson",
+        "title": "Demonstrator",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+        "curriculums": [
+            {
+                "id": "m1n2o3p4",
+                "name": "訊號與系統",
+                "schedule": "星期三, 13:00~15:00",
+                "content": "Introduction to signal processing techniques and system fundamentals."
+            }
+        ]
+    },
+    {
+        "id": "j0k1l2m3",
+        "name": "Noah Wilson",
+        "title": "Demonstrator",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+        "curriculums": [
+            {
+                "id": "n2o3p4q5",
+                "name": "基礎程式設計",
+                "schedule": "星期五, 11:00~13:00",
+                "content": "Basic programming skills with practical applications."
+            }
+        ]
+    },
+    {
+        "id": "k1l2m3n4",
+        "name": "Isabella Martinez",
+        "title": "Assistant Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+        "curriculums": [
+            {
+                "id": "o3p4q5r6",
+                "name": "人工智慧總整與實作",
+                "schedule": "星期二, 14:00~16:00",
+                "content": "Comprehensive review of AI concepts and their practical implementations."
+            }
+        ]
+    },
+    {
+        "id": "l2m3n4o5",
+        "name": "Emily White",
+        "title": "Assistant Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+        "curriculums": [
+            {
+                "id": "p4q5r6s7",
+                "name": "訊號與系統",
+                "schedule": "星期四, 16:00~18:00",
+                "content": "Detailed study of signal theory and practical system applications."
+            }
+        ]
+    },
+    {
+        "id": "m3n4o5p6",
+        "name": "Emma Davis",
+        "title": "Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+        "curriculums": [
+            {
+                "id": "q5r6s7t8",
+                "name": "基礎程式設計",
+                "schedule": "星期三, 08:00~10:00",
+                "content": "Fundamentals of programming with emphasis on practical coding skills."
+            }
+        ]
+    },
+    {
+        "id": "n4o5p6q7",
+        "name": "Sophia Taylor",
+        "title": "Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/8.jpg",
+        "curriculums": [
+            {
+                "id": "r6s7t8u9",
+                "name": "人工智慧總整與實作",
+                "schedule": "星期五, 09:00~11:00",
+                "content": "Overview and practical applications of AI technologies."
+            }
+        ]
+    },
+    {
+        "id": "o5p6q7r8",
+        "name": "James Anderson",
+        "title": "Lecturer",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/7.jpg",
+        "curriculums": [
+            {
+                "id": "s7t8u9v0",
+                "name": "訊號與系統",
+                "schedule": "星期二, 15:00~17:00",
+                "content": "Study of signal processing techniques and system behavior."
+            }
+        ]
+    },
+    {
+        "id": "p6q7r8s9",
+        "name": "Charlotte Thomas",
+        "title": "Senior Lecturer",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/9.jpg",
+        "curriculums": [
+            {
+                "id": "t8u9v0w1",
+                "name": "基礎程式設計",
+                "schedule": "星期四, 11:00~13:00",
+                "content": "Basic principles of programming with practical hands-on sessions."
+            }
+        ]
+    },
+    {
+        "id": "q7r8s9t0",
+        "name": "Elijah Jackson",
+        "title": "Demonstrator",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+        "curriculums": [
+            {
+                "id": "u9v0w1x2",
+                "name": "訊號與系統",
+                "schedule": "星期三, 10:00~12:00",
+                "content": "Introduction to signals and systems with practical applications."
+            }
+        ]
+    },
+    {
+        "id": "r8s9t0u1",
+        "name": "Emily White",
+        "title": "Assistant Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+        "curriculums": [
+            {
+                "id": "v0w1x2y3",
+                "name": "人工智慧總整與實作",
+                "schedule": "星期五, 14:00~16:00",
+                "content": "AI concepts and practical implementations with a focus on real-world applications."
+            }
+        ]
+    },
+    {
+        "id": "s9t0u1v2",
+        "name": "Benjamin Lee",
+        "title": "Professor",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/9.jpg",
+        "curriculums": [
+            {
+                "id": "w1x2y3z4",
+                "name": "基礎程式設計",
+                "schedule": "星期四, 13:00~15:00",
+                "content": "Introduction to programming fundamentals with hands-on projects."
+            }
+        ]
+    }
+]
