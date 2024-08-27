@@ -11,7 +11,7 @@ _$CurriculumModelImpl _$$CurriculumModelImplFromJson(
     _$CurriculumModelImpl(
       id: json['id'] as String,
       name: json['name'] as String,
-      time: json['time'] as String,
+      schedule: json['schedule'] as String,
       content: json['content'] as String,
     );
 
@@ -20,6 +20,6 @@ Map<String, dynamic> _$$CurriculumModelImplToJson(
     <String, dynamic>{
       'id': instance.id,
       'name': instance.name,
-      'time': instance.time,
+      'schedule': instance.schedule,
       'content': instance.content,
     };

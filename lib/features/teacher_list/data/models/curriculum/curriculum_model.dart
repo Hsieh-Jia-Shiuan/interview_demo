@@ -17,7 +17,7 @@ class CurriculumModel with _$CurriculumModel {
   const factory CurriculumModel({
     required String id,
     required String name,
-    required String time,
+    required String schedule,
     required String content,
   }) = _CurriculumModel;
 

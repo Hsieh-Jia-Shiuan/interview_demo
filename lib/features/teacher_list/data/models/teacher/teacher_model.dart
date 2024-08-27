@@ -34,7 +34,7 @@ class TeacherModel with _$TeacherModel {
           CurriculumModel(
             id: '{curriculum id_$index}',
             name: '{curriculum name_$index}',
-            time: '{curriculum time_$index}',
+            schedule: '{curriculum schedule_$index}',
             content: '{curriculum content_$index}',
           ),
         ],

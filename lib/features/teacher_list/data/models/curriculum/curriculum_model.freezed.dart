@@ -22,7 +22,7 @@ CurriculumModel _$CurriculumModelFromJson(Map<String, dynamic> json) {
 mixin _$CurriculumModel {
   String get id => throw _privateConstructorUsedError;
   String get name => throw _privateConstructorUsedError;
-  String get time => throw _privateConstructorUsedError;
+  String get schedule => throw _privateConstructorUsedError;
   String get content => throw _privateConstructorUsedError;
 
   /// Serializes this CurriculumModel to a JSON map.
@@ -41,7 +41,7 @@ abstract class $CurriculumModelCopyWith<$Res> {
           CurriculumModel value, $Res Function(CurriculumModel) then) =
       _$CurriculumModelCopyWithImpl<$Res, CurriculumModel>;
   @useResult
-  $Res call({String id, String name, String time, String content});
+  $Res call({String id, String name, String schedule, String content});
 }
 
 /// @nodoc
@@ -61,7 +61,7 @@ class _$CurriculumModelCopyWithImpl<$Res, $Val extends CurriculumModel>
   $Res call({
     Object? id = null,
     Object? name = null,
-    Object? time = null,
+    Object? schedule = null,
     Object? content = null,
   }) {
     return _then(_value.copyWith(
@@ -73,9 +73,9 @@ class _$CurriculumModelCopyWithImpl<$Res, $Val extends CurriculumModel>
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      time: null == time
-          ? _value.time
-          : time // ignore: cast_nullable_to_non_nullable
+      schedule: null == schedule
+          ? _value.schedule
+          : schedule // ignore: cast_nullable_to_non_nullable
               as String,
       content: null == content
           ? _value.content
@@ -93,7 +93,7 @@ abstract class _$$CurriculumModelImplCopyWith<$Res>
       __$$CurriculumModelImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String id, String name, String time, String content});
+  $Res call({String id, String name, String schedule, String content});
 }
 
 /// @nodoc
@@ -111,7 +111,7 @@ class __$$CurriculumModelImplCopyWithImpl<$Res>
   $Res call({
     Object? id = null,
     Object? name = null,
-    Object? time = null,
+    Object? schedule = null,
     Object? content = null,
   }) {
     return _then(_$CurriculumModelImpl(
@@ -123,9 +123,9 @@ class __$$CurriculumModelImplCopyWithImpl<$Res>
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      time: null == time
-          ? _value.time
-          : time // ignore: cast_nullable_to_non_nullable
+      schedule: null == schedule
+          ? _value.schedule
+          : schedule // ignore: cast_nullable_to_non_nullable
               as String,
       content: null == content
           ? _value.content
@@ -141,7 +141,7 @@ class _$CurriculumModelImpl implements _CurriculumModel {
   const _$CurriculumModelImpl(
       {required this.id,
       required this.name,
-      required this.time,
+      required this.schedule,
       required this.content});
 
   factory _$CurriculumModelImpl.fromJson(Map<String, dynamic> json) =>
@@ -152,13 +152,13 @@ class _$CurriculumModelImpl implements _CurriculumModel {
   @override
   final String name;
   @override
-  final String time;
+  final String schedule;
   @override
   final String content;
 
   @override
   String toString() {
-    return 'CurriculumModel(id: $id, name: $name, time: $time, content: $content)';
+    return 'CurriculumModel(id: $id, name: $name, schedule: $schedule, content: $content)';
   }
 
   @override
@@ -168,13 +168,14 @@ class _$CurriculumModelImpl implements _CurriculumModel {
             other is _$CurriculumModelImpl &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.name, name) || other.name == name) &&
-            (identical(other.time, time) || other.time == time) &&
+            (identical(other.schedule, schedule) ||
+                other.schedule == schedule) &&
             (identical(other.content, content) || other.content == content));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, time, content);
+  int get hashCode => Object.hash(runtimeType, id, name, schedule, content);
 
   /// Create a copy of CurriculumModel
   /// with the given fields replaced by the non-null parameter values.
@@ -197,7 +198,7 @@ abstract class _CurriculumModel implements CurriculumModel {
   const factory _CurriculumModel(
       {required final String id,
       required final String name,
-      required final String time,
+      required final String schedule,
       required final String content}) = _$CurriculumModelImpl;
 
   factory _CurriculumModel.fromJson(Map<String, dynamic> json) =
@@ -208,7 +209,7 @@ abstract class _CurriculumModel implements CurriculumModel {
   @override
   String get name;
   @override
-  String get time;
+  String get schedule;
   @override
   String get content;
 
