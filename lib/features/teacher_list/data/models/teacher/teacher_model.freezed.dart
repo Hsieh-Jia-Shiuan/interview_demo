@@ -158,14 +158,15 @@ class __$$TeacherModelImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$TeacherModelImpl implements _TeacherModel {
+class _$TeacherModelImpl extends _TeacherModel {
   const _$TeacherModelImpl(
       {required this.id,
       required this.name,
       required this.title,
       required this.avatarUrl,
       required final List<CurriculumModel> curriculums})
-      : _curriculums = curriculums;
+      : _curriculums = curriculums,
+        super._();
 
   factory _$TeacherModelImpl.fromJson(Map<String, dynamic> json) =>
       _$$TeacherModelImplFromJson(json);
@@ -226,13 +227,14 @@ class _$TeacherModelImpl implements _TeacherModel {
   }
 }
 
-abstract class _TeacherModel implements TeacherModel {
+abstract class _TeacherModel extends TeacherModel {
   const factory _TeacherModel(
       {required final String id,
       required final String name,
       required final String title,
       required final String avatarUrl,
       required final List<CurriculumModel> curriculums}) = _$TeacherModelImpl;
+  const _TeacherModel._() : super._();
 
   factory _TeacherModel.fromJson(Map<String, dynamic> json) =
       _$TeacherModelImpl.fromJson;

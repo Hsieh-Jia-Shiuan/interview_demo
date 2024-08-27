@@ -31,9 +31,11 @@ class _UniversalScaffoldState extends State<UniversalScaffold> {
     return PopScope(
       canPop: false,
       onPopInvokedWithResult: (bool didpop, dynamic result) {
-        if (widget.didPop != null) {
-          widget.didPop!(true, result);
+        if (didpop) {
+          return;
         }
+
+        widget.didPop;
       },
       child: Scaffold(
         key: _scaffoldKey,
