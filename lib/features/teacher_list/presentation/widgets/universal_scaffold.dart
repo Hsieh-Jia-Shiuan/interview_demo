@@ -30,7 +30,11 @@ class _UniversalScaffoldState extends State<UniversalScaffold> {
   Widget build(BuildContext context) {
     return PopScope(
       canPop: false,
-      onPopInvokedWithResult: widget.didPop,
+      onPopInvokedWithResult: (bool didpop, dynamic result) {
+        if (widget.didPop != null) {
+          widget.didPop!(true, result);
+        }
+      },
       child: Scaffold(
         key: _scaffoldKey,
         backgroundColor: Theme.of(context).colorScheme.surface,

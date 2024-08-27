@@ -22,7 +22,7 @@ class CurriculumItem extends StatelessWidget {
         size: 32,
       ),
       title: Text(curriculumEntity.name),
-      subtitle: Text(curriculumEntity.time),
+      subtitle: Text(curriculumEntity.schedule),
       trailing: const Icon(
         Icons.chevron_right,
         size: 32,

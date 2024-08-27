@@ -56,7 +56,7 @@ class CurriculumDetailsPage extends StatelessWidget {
             Row(
               children: [
                 const Text('課程時間:'),
-                Text(curriculumEntity.time),
+                Text(curriculumEntity.schedule),
               ],
             ),
             const Text('課程內容:'),
