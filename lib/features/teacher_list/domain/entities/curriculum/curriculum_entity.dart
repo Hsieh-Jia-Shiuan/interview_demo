@@ -17,7 +17,7 @@ class CurriculumEntity with _$CurriculumEntity {
   const factory CurriculumEntity({
     required String id,
     required String name,
-    required String time,
+    required String schedule,
     required String content,
   }) = _CurriculumEntity;
 

@@ -22,7 +22,7 @@ CurriculumEntity _$CurriculumEntityFromJson(Map<String, dynamic> json) {
 mixin _$CurriculumEntity {
   String get id => throw _privateConstructorUsedError;
   String get name => throw _privateConstructorUsedError;
-  String get time => throw _privateConstructorUsedError;
+  String get schedule => throw _privateConstructorUsedError;
   String get content => throw _privateConstructorUsedError;
 
   /// Serializes this CurriculumEntity to a JSON map.
@@ -41,7 +41,7 @@ abstract class $CurriculumEntityCopyWith<$Res> {
           CurriculumEntity value, $Res Function(CurriculumEntity) then) =
       _$CurriculumEntityCopyWithImpl<$Res, CurriculumEntity>;
   @useResult
-  $Res call({String id, String name, String time, String content});
+  $Res call({String id, String name, String schedule, String content});
 }
 
 /// @nodoc
@@ -61,7 +61,7 @@ class _$CurriculumEntityCopyWithImpl<$Res, $Val extends CurriculumEntity>
   $Res call({
     Object? id = null,
     Object? name = null,
-    Object? time = null,
+    Object? schedule = null,
     Object? content = null,
   }) {
     return _then(_value.copyWith(
@@ -73,9 +73,9 @@ class _$CurriculumEntityCopyWithImpl<$Res, $Val extends CurriculumEntity>
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      time: null == time
-          ? _value.time
-          : time // ignore: cast_nullable_to_non_nullable
+      schedule: null == schedule
+          ? _value.schedule
+          : schedule // ignore: cast_nullable_to_non_nullable
               as String,
       content: null == content
           ? _value.content
@@ -93,7 +93,7 @@ abstract class _$$CurriculumEntityImplCopyWith<$Res>
       __$$CurriculumEntityImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String id, String name, String time, String content});
+  $Res call({String id, String name, String schedule, String content});
 }
 
 /// @nodoc
@@ -111,7 +111,7 @@ class __$$CurriculumEntityImplCopyWithImpl<$Res>
   $Res call({
     Object? id = null,
     Object? name = null,
-    Object? time = null,
+    Object? schedule = null,
     Object? content = null,
   }) {
     return _then(_$CurriculumEntityImpl(
@@ -123,9 +123,9 @@ class __$$CurriculumEntityImplCopyWithImpl<$Res>
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
               as String,
-      time: null == time
-          ? _value.time
-          : time // ignore: cast_nullable_to_non_nullable
+      schedule: null == schedule
+          ? _value.schedule
+          : schedule // ignore: cast_nullable_to_non_nullable
               as String,
       content: null == content
           ? _value.content
@@ -141,7 +141,7 @@ class _$CurriculumEntityImpl implements _CurriculumEntity {
   const _$CurriculumEntityImpl(
       {required this.id,
       required this.name,
-      required this.time,
+      required this.schedule,
       required this.content});
 
   factory _$CurriculumEntityImpl.fromJson(Map<String, dynamic> json) =>
@@ -152,13 +152,13 @@ class _$CurriculumEntityImpl implements _CurriculumEntity {
   @override
   final String name;
   @override
-  final String time;
+  final String schedule;
   @override
   final String content;
 
   @override
   String toString() {
-    return 'CurriculumEntity(id: $id, name: $name, time: $time, content: $content)';
+    return 'CurriculumEntity(id: $id, name: $name, schedule: $schedule, content: $content)';
   }
 
   @override
@@ -168,13 +168,14 @@ class _$CurriculumEntityImpl implements _CurriculumEntity {
             other is _$CurriculumEntityImpl &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.name, name) || other.name == name) &&
-            (identical(other.time, time) || other.time == time) &&
+            (identical(other.schedule, schedule) ||
+                other.schedule == schedule) &&
             (identical(other.content, content) || other.content == content));
   }
 
   @JsonKey(includeFromJson: false, includeToJson: false)
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, time, content);
+  int get hashCode => Object.hash(runtimeType, id, name, schedule, content);
 
   /// Create a copy of CurriculumEntity
   /// with the given fields replaced by the non-null parameter values.
@@ -197,7 +198,7 @@ abstract class _CurriculumEntity implements CurriculumEntity {
   const factory _CurriculumEntity(
       {required final String id,
       required final String name,
-      required final String time,
+      required final String schedule,
       required final String content}) = _$CurriculumEntityImpl;
 
   factory _CurriculumEntity.fromJson(Map<String, dynamic> json) =
@@ -208,7 +209,7 @@ abstract class _CurriculumEntity implements CurriculumEntity {
   @override
   String get name;
   @override
-  String get time;
+  String get schedule;
   @override
   String get content;
 
