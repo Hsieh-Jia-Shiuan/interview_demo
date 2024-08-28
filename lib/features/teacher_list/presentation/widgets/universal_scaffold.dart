@@ -30,7 +30,7 @@ class _UniversalScaffoldState extends State<UniversalScaffold> {
   Widget build(BuildContext context) {
     return PopScope(
       canPop: false,
-      onPopInvokedWithResult: (bool didpop, dynamic result) {
+      onPopInvoked: (bool didpop) {
         if (didpop) {
           return;
         }
