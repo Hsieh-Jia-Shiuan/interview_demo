@@ -68,11 +68,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     backgroundImage: NetworkImage(
                       state.teachers[index].avatarUrl,
                     ),
-                    child: const Icon(
-                      Icons.person,
-                      size: 32,
-                      color: Colors.white,
-                    ),
                   ),
                   onExpansionChanged: (status) {
                     context.read<RecordExpansionChangeCubit>().change(
